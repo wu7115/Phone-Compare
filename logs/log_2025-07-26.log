@@ -1,0 +1,139 @@
+2025-07-26 13:57:42,998 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 13:57:44,061 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 13:57:44,174 - INFO - createCollection('phone_comparer')
+2025-07-26 13:57:46,720 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 13:57:46,722 - INFO - finished createCollection('phone_comparer')
+2025-07-26 13:57:46,856 - INFO - Phone comparison graph created successfully
+2025-07-26 13:57:46,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.124:5001
+2025-07-26 13:57:46,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 13:57:46,896 - INFO -  * Restarting with stat
+2025-07-26 13:57:47,408 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 13:57:48,539 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 13:57:48,636 - INFO - createCollection('phone_comparer')
+2025-07-26 13:57:51,022 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 13:57:51,024 - INFO - finished createCollection('phone_comparer')
+2025-07-26 13:57:51,152 - INFO - Phone comparison graph created successfully
+2025-07-26 13:57:51,166 - WARNING -  * Debugger is active!
+2025-07-26 13:57:51,174 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 13:57:53,074 - INFO - 127.0.0.1 - - [26/Jul/2025 13:57:53] "GET / HTTP/1.1" 200 -
+2025-07-26 13:57:53,093 - INFO - 127.0.0.1 - - [26/Jul/2025 13:57:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-26 13:58:26,344 - INFO - OOD Detection for query: what's the price of samsung s25
+2025-07-26 13:58:27,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 13:58:27,077 - INFO - OOD Detection result: False
+2025-07-26 13:58:27,078 - INFO - Response generation for query: what's the price of samsung s25, is_ood: False
+2025-07-26 13:58:27,078 - ERROR - Error in response generation: 'session_id'
+2025-07-26 13:58:27,079 - INFO - 127.0.0.1 - - [26/Jul/2025 13:58:27] "POST /get HTTP/1.1" 200 -
+2025-07-26 13:58:48,891 - INFO - OOD Detection for query: give a bref intro of apple iphone 15
+2025-07-26 13:58:49,595 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 13:58:49,596 - INFO - OOD Detection result: False
+2025-07-26 13:58:49,596 - INFO - Response generation for query: give a bref intro of apple iphone 15, is_ood: False
+2025-07-26 13:58:49,596 - ERROR - Error in response generation: 'session_id'
+2025-07-26 13:58:49,597 - INFO - 127.0.0.1 - - [26/Jul/2025 13:58:49] "POST /get HTTP/1.1" 200 -
+2025-07-26 14:02:35,500 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/multi_agent_phone_system.py', reloading
+2025-07-26 14:02:35,636 - INFO -  * Restarting with stat
+2025-07-26 14:02:36,271 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:02:37,259 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:02:37,350 - INFO - createCollection('phone_comparer')
+2025-07-26 14:02:39,742 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:02:39,743 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:02:39,869 - INFO - Phone comparison graph created successfully
+2025-07-26 14:02:39,885 - WARNING -  * Debugger is active!
+2025-07-26 14:02:39,889 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 14:02:52,108 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/multi_agent_phone_system.py', reloading
+2025-07-26 14:02:52,229 - INFO -  * Restarting with stat
+2025-07-26 14:02:52,873 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:02:53,860 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:02:53,982 - INFO - createCollection('phone_comparer')
+2025-07-26 14:02:56,425 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:02:56,426 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:02:56,562 - INFO - Phone comparison graph created successfully
+2025-07-26 14:02:56,577 - WARNING -  * Debugger is active!
+2025-07-26 14:02:56,582 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 14:02:59,619 - INFO - 127.0.0.1 - - [26/Jul/2025 14:02:59] "GET / HTTP/1.1" 200 -
+2025-07-26 14:02:59,636 - INFO - 127.0.0.1 - - [26/Jul/2025 14:02:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-26 14:03:17,458 - INFO - OOD Detection for query: give brief intro of apple iphone 15
+2025-07-26 14:03:18,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:18,126 - INFO - OOD Detection result: False
+2025-07-26 14:03:18,127 - INFO - Response generation for query: give brief intro of apple iphone 15, is_ood: False
+2025-07-26 14:03:18,701 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:03:19,174 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-26 14:03:19,176 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:03:20,220 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:20,223 - INFO - Generated in-domain response
+2025-07-26 14:03:20,224 - INFO - 127.0.0.1 - - [26/Jul/2025 14:03:20] "POST /get HTTP/1.1" 200 -
+2025-07-26 14:03:27,953 - INFO - OOD Detection for query: is it the best
+2025-07-26 14:03:28,377 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:28,380 - INFO - OOD Detection result: False
+2025-07-26 14:03:28,381 - INFO - Response generation for query: is it the best, is_ood: False
+2025-07-26 14:03:29,789 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:30,057 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:03:30,542 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-26 14:03:30,543 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:03:30,701 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-26 14:03:30,702 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-07-26 14:03:39,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:39,973 - INFO - Generated in-domain response
+2025-07-26 14:03:39,974 - INFO - 127.0.0.1 - - [26/Jul/2025 14:03:39] "POST /get HTTP/1.1" 200 -
+2025-07-26 14:03:54,004 - INFO - OOD Detection for query: how's the weather today
+2025-07-26 14:03:54,472 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:03:54,473 - INFO - OOD Detection result: True
+2025-07-26 14:03:54,474 - INFO - Response generation for query: how's the weather today, is_ood: True
+2025-07-26 14:03:54,474 - INFO - Generated OOD response
+2025-07-26 14:03:54,474 - INFO - 127.0.0.1 - - [26/Jul/2025 14:03:54] "POST /get HTTP/1.1" 200 -
+2025-07-26 14:04:05,402 - INFO - OOD Detection for query: I mean can the phone answer this quesiton
+2025-07-26 14:04:05,885 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:04:05,887 - INFO - OOD Detection result: False
+2025-07-26 14:04:05,888 - INFO - Response generation for query: I mean can the phone answer this quesiton, is_ood: False
+2025-07-26 14:04:07,549 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:04:07,823 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:04:08,451 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-26 14:04:08,452 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-26 14:04:08,576 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-26 14:04:08,576 - INFO - Retrying request to /openai/v1/chat/completions in 33.000000 seconds
+2025-07-26 14:04:42,515 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-26 14:04:42,518 - INFO - Generated in-domain response
+2025-07-26 14:04:42,520 - INFO - 127.0.0.1 - - [26/Jul/2025 14:04:42] "POST /get HTTP/1.1" 200 -
+2025-07-26 14:05:14,698 - INFO - 127.0.0.1 - - [26/Jul/2025 14:05:14] "GET /metrics HTTP/1.1" 200 -
+2025-07-26 14:06:08,491 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/rag_chain.py', reloading
+2025-07-26 14:06:08,584 - INFO -  * Restarting with stat
+2025-07-26 14:06:09,204 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:06:13,344 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:06:13,439 - INFO - createCollection('phone_comparer')
+2025-07-26 14:06:15,814 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:06:15,815 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:06:15,928 - INFO - Phone comparison graph created successfully
+2025-07-26 14:06:15,944 - WARNING -  * Debugger is active!
+2025-07-26 14:06:15,948 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 14:06:21,021 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/ood_detection_agent.py', reloading
+2025-07-26 14:06:21,109 - INFO -  * Restarting with stat
+2025-07-26 14:06:21,661 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:06:22,344 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:06:22,450 - INFO - createCollection('phone_comparer')
+2025-07-26 14:06:24,797 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:06:24,797 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:06:24,904 - INFO - Phone comparison graph created successfully
+2025-07-26 14:06:24,918 - WARNING -  * Debugger is active!
+2025-07-26 14:06:24,923 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 14:06:33,026 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/rag_chain.py', reloading
+2025-07-26 14:06:33,142 - INFO -  * Restarting with stat
+2025-07-26 14:06:33,745 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:06:35,007 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:06:35,117 - INFO - createCollection('phone_comparer')
+2025-07-26 14:06:37,528 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:06:37,528 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:06:37,636 - INFO - Phone comparison graph created successfully
+2025-07-26 14:06:37,652 - WARNING -  * Debugger is active!
+2025-07-26 14:06:37,656 - INFO -  * Debugger PIN: 937-612-534
+2025-07-26 14:06:43,748 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/ood_detection_agent.py', reloading
+2025-07-26 14:06:43,868 - INFO -  * Restarting with stat
+2025-07-26 14:06:44,453 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-26 14:06:45,191 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-26 14:06:45,305 - INFO - createCollection('phone_comparer')
+2025-07-26 14:06:47,615 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-26 14:06:47,616 - INFO - finished createCollection('phone_comparer')
+2025-07-26 14:06:47,745 - INFO - Phone comparison graph created successfully
+2025-07-26 14:06:47,758 - WARNING -  * Debugger is active!
+2025-07-26 14:06:47,762 - INFO -  * Debugger PIN: 937-612-534

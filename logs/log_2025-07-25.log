@@ -1,0 +1,171 @@
+2025-07-25 22:22:19,323 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 22:22:23,650 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 22:22:23,764 - INFO - createCollection('phone_comparer')
+2025-07-25 22:22:40,236 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 22:22:40,237 - INFO - finished createCollection('phone_comparer')
+2025-07-25 22:22:41,191 - INFO - inserting 6 documents in 'phone_comparer'
+2025-07-25 22:22:41,191 - INFO - insertMany(chunk) on 'phone_comparer'
+2025-07-25 22:22:41,573 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-25 22:22:41,575 - INFO - finished insertMany(chunk) on 'phone_comparer'
+2025-07-25 22:22:41,575 - INFO - finished inserting 6 documents in 'phone_comparer'
+2025-07-25 22:22:41,575 - INFO - Successfully ingested 6 markdown documents
+2025-07-25 23:06:49,048 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:06:54,518 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:06:54,641 - INFO - createCollection('phone_comparer')
+2025-07-25 23:06:57,177 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:06:57,178 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:08:45,038 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:08:49,414 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:08:49,532 - INFO - createCollection('phone_comparer')
+2025-07-25 23:08:51,876 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:08:51,877 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:08:52,057 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.124:5001
+2025-07-25 23:08:52,057 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:08:52,058 - INFO -  * Restarting with stat
+2025-07-25 23:08:52,504 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:08:53,209 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:08:53,320 - INFO - createCollection('phone_comparer')
+2025-07-25 23:08:55,760 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:08:55,761 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:08:55,916 - WARNING -  * Debugger is active!
+2025-07-25 23:08:55,922 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:09:22,157 - INFO - 127.0.0.1 - - [25/Jul/2025 23:09:22] "GET / HTTP/1.1" 200 -
+2025-07-25 23:09:22,176 - INFO - 127.0.0.1 - - [25/Jul/2025 23:09:22] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 23:09:23,159 - INFO - 127.0.0.1 - - [25/Jul/2025 23:09:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 23:09:43,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:09:43,879 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:09:44,502 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-25 23:09:44,503 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:09:45,629 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:09:46,139 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:09:46,142 - INFO - 127.0.0.1 - - [25/Jul/2025 23:09:46] "POST /get HTTP/1.1" 200 -
+2025-07-25 23:10:02,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:10:03,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:10:03,680 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:10:04,204 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-25 23:10:04,205 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:10:05,905 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:10:06,008 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-25 23:10:06,009 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-25 23:10:11,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:10:11,502 - INFO - 127.0.0.1 - - [25/Jul/2025 23:10:11] "POST /get HTTP/1.1" 200 -
+2025-07-25 23:11:05,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:11:05,511 - INFO - 127.0.0.1 - - [25/Jul/2025 23:11:05] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+2025-07-25 23:11:57,581 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/multi_agent_phone_system.py', reloading
+2025-07-25 23:11:57,697 - INFO -  * Restarting with stat
+2025-07-25 23:11:58,356 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:12:02,644 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:12:02,762 - INFO - createCollection('phone_comparer')
+2025-07-25 23:12:05,089 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:12:05,089 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:12:05,267 - WARNING -  * Debugger is active!
+2025-07-25 23:12:05,272 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:12:10,371 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/multi_agent_phone_system.py', reloading
+2025-07-25 23:12:10,451 - INFO -  * Restarting with stat
+2025-07-25 23:12:10,917 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:12:11,608 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:12:11,733 - INFO - createCollection('phone_comparer')
+2025-07-25 23:12:14,141 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:12:14,142 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:12:14,293 - WARNING -  * Debugger is active!
+2025-07-25 23:12:14,298 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:12:15,006 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:15] "GET / HTTP/1.1" 200 -
+2025-07-25 23:12:15,039 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 23:12:19,845 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:12:19,864 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:19] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+2025-07-25 23:12:28,282 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:12:29,151 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:12:29,254 - INFO - createCollection('phone_comparer')
+2025-07-25 23:12:31,566 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:12:31,567 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:12:31,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.124:5001
+2025-07-25 23:12:31,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:12:31,744 - INFO -  * Restarting with stat
+2025-07-25 23:12:32,203 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:12:32,868 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:12:32,986 - INFO - createCollection('phone_comparer')
+2025-07-25 23:12:35,387 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:12:35,388 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:12:35,515 - WARNING -  * Debugger is active!
+2025-07-25 23:12:35,520 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:12:35,529 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:35] "GET / HTTP/1.1" 200 -
+2025-07-25 23:12:35,543 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 23:12:40,221 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:12:40,232 - INFO - 127.0.0.1 - - [25/Jul/2025 23:12:40] "[35m[1mPOST /get HTTP/1.1[0m" 500 -
+2025-07-25 23:13:17,272 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/ood_detection_agent.py', reloading
+2025-07-25 23:13:17,372 - INFO -  * Restarting with stat
+2025-07-25 23:13:17,962 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:13:18,806 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:13:18,933 - INFO - createCollection('phone_comparer')
+2025-07-25 23:13:21,348 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:13:21,348 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:13:21,510 - WARNING -  * Debugger is active!
+2025-07-25 23:13:21,515 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:13:24,574 - INFO -  * Detected change in '/Users/daniel/Desktop/phone comparer/comparer/ood_detection_agent.py', reloading
+2025-07-25 23:13:24,692 - INFO -  * Restarting with stat
+2025-07-25 23:13:25,193 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:13:25,871 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:13:25,987 - INFO - createCollection('phone_comparer')
+2025-07-25 23:13:28,292 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:13:28,293 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:13:28,432 - WARNING -  * Debugger is active!
+2025-07-25 23:13:28,437 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:13:31,975 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:13:32,680 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:13:32,778 - INFO - createCollection('phone_comparer')
+2025-07-25 23:13:35,212 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:13:35,214 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:13:35,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.124:5001
+2025-07-25 23:13:35,382 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:13:35,382 - INFO -  * Restarting with stat
+2025-07-25 23:13:35,839 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:13:36,549 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:13:36,676 - INFO - createCollection('phone_comparer')
+2025-07-25 23:13:39,004 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:13:39,005 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:13:39,159 - WARNING -  * Debugger is active!
+2025-07-25 23:13:39,164 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:13:39,172 - INFO - 127.0.0.1 - - [25/Jul/2025 23:13:39] "GET / HTTP/1.1" 200 -
+2025-07-25 23:13:39,192 - INFO - 127.0.0.1 - - [25/Jul/2025 23:13:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 23:13:44,429 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:13:44,837 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:13:44,840 - INFO - 127.0.0.1 - - [25/Jul/2025 23:13:44] "POST /get HTTP/1.1" 200 -
+2025-07-25 23:14:30,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:14:31,190 - INFO - cursor fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:14:31,654 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/phone_comparer "HTTP/1.1 200 OK"
+2025-07-25 23:14:31,655 - INFO - cursor finished fetching a page: (empty page state) from phone_comparer
+2025-07-25 23:14:32,444 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:14:32,864 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 23:14:32,866 - INFO - 127.0.0.1 - - [25/Jul/2025 23:14:32] "POST /get HTTP/1.1" 200 -
+2025-07-25 23:17:26,161 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:17:30,718 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:17:30,824 - INFO - createCollection('phone_comparer')
+2025-07-25 23:17:33,297 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:17:33,298 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:17:33,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.124:5001
+2025-07-25 23:17:33,461 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 23:17:33,462 - INFO -  * Restarting with stat
+2025-07-25 23:17:33,904 - INFO - vector store default init, collection 'phone_comparer'
+2025-07-25 23:17:34,620 - INFO - Detecting API environment 'prod' from supplied endpoint
+2025-07-25 23:17:34,731 - INFO - createCollection('phone_comparer')
+2025-07-25 23:17:37,085 - INFO - HTTP Request: POST https://3611060d-562d-49d3-ae4f-459126e7796d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2025-07-25 23:17:37,086 - INFO - finished createCollection('phone_comparer')
+2025-07-25 23:17:37,240 - WARNING -  * Debugger is active!
+2025-07-25 23:17:37,245 - INFO -  * Debugger PIN: 937-612-534
+2025-07-25 23:17:37,254 - INFO - 127.0.0.1 - - [25/Jul/2025 23:17:37] "GET / HTTP/1.1" 200 -
+2025-07-25 23:17:37,277 - INFO - 127.0.0.1 - - [25/Jul/2025 23:17:37] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 23:17:58,829 - INFO - 127.0.0.1 - - [25/Jul/2025 23:17:58] "GET /metrics HTTP/1.1" 200 -
+2025-07-25 23:19:02,395 - INFO - 127.0.0.1 - - [25/Jul/2025 23:19:02] "GET / HTTP/1.1" 200 -
+2025-07-25 23:19:02,413 - INFO - 127.0.0.1 - - [25/Jul/2025 23:19:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
