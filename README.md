@@ -11,7 +11,7 @@ A sophisticated multi-agent phone comparison system built with LangGraph, featur
 - **Real-time Monitoring**: Prometheus metrics and Grafana dashboards
 - **Production-Ready**: Kubernetes deployment with proper logging and error handling
 
-## 🏗Architecture
+## Architecture
 
 ### Multi-Agent System (LangGraph)
 
