@@ -69,7 +69,7 @@ The system tracks comprehensive metrics:
 - **Grafana**: Visualization and dashboards
 - **Custom Dashboards**: Real-time system monitoring
 
-## 🛠️ Technology Stack
+## 🛠Technology Stack
 
 ### Core Technologies
 - **LangGraph**: Multi-agent orchestration
